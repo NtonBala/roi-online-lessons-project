@@ -1,12 +1,12 @@
 // Core
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
-import { customInput, customSelect } from '../fields';
-import { 
+import { customInput, customSelect } from '../Fields';
+import {
     required,
     minLength,
     maxLength
- } from './validation';
+} from './validation';
 
 const RegistrationComponent = ({ handleSubmit }) => {
     return (
