@@ -1,0 +1,9 @@
+export const types = {
+    // Sync
+    FILL_STARSHIPS: 'FILL_STARSHIPS',
+    START_FETCHING:  'START_FETCHING',
+    STOP_FETCHING:   'STOP_FETCHING',
+
+    // Async
+    FETCH_STARSHIPS_ASYNC: 'FETCH_STARSHIPS_ASYNC',
+};
