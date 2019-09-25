@@ -2,8 +2,8 @@
 import { types } from './types';
 
 const initialState = {
-    firstName:  'Уолтер',
-    lastName:   'Уайт',
+    firstName:  'Walter',
+    lastName:   'White',
     isFetching: false,
 };
 

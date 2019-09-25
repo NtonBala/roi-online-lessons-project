@@ -9,7 +9,7 @@ import { book } from './book';
 
 @hot(module)
 export class Routes extends Component {
-    render() {
+    render () {
         return (
             <>
                 <Route
